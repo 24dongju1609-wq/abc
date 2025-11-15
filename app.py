@@ -1,13 +1,13 @@
 import streamlit as st
 
 
-st.title('나의 첫 번째 Streamlit 앱')
+st.title('안녕하세')
 
 
-st.write("Streamlit을 사용하여 간단한 웹 앱을 만들었습니다!")
+st.write("여기에 오신 걸 환영합니다")
 
 
 if st.button('클릭'):
-    st.write("버튼이 클릭되었습니다!")
+    st.write("당신은 저에게 치킨을 사주셔야 합니")
 else:
     st.write("버튼을 클릭하세요.")
